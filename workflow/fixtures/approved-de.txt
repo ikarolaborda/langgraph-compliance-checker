@@ -1,0 +1,16 @@
+INVOICE
+
+Invoice number: RE-88213
+Supplier: Nordlicht Logistik GmbH
+VAT ID: DE123456789
+IBAN: DE89 3704 0044 0532 0130 00
+Currency: EUR
+Issue date: 2026-09-15
+Due date: 2026-10-15
+
+Items (description | qty | unit price | amount):
+- Pallet transport Porto-Hamburg | 3 | 410.00 | 1230.00
+
+Subtotal: 1230.00
+VAT amount: 233.70
+Total: 1463.70

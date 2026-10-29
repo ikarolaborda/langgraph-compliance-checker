@@ -1,0 +1,16 @@
+INVOICE
+
+Invoice number: ES-2026-0907
+Supplier: Sol y Mar Consultoría SL
+VAT ID: ESB12345678
+IBAN: ES91 2100 0418 4502 0005 1332
+Currency: EUR
+Issue date: 2026-09-07
+Due date: 2026-12-06
+
+Items (description | qty | unit price | amount):
+- Compliance audit, Q3 | 1 | 4800.00 | 4800.00
+
+Subtotal: 4800.00
+VAT amount: 1008.00
+Total: 5808.00

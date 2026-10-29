@@ -1,0 +1,16 @@
+INVOICE
+
+Invoice number: INV-0099
+Supplier: Baltic Print OU
+VAT ID: EE100931558
+
+Currency: EUR
+Issue date: 2026-09-12
+Due date: 2026-10-12
+
+Items (description | qty | unit price | amount):
+- Brochure printing | 500 | 0.80 | 400.00
+
+Subtotal: 400.00
+VAT amount: 88.00
+Total: 488.00

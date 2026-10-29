@@ -1,0 +1,9 @@
+{
+  "approved-pt.txt": { "decision": "approved", "fields": { "invoiceNumber": "INV-2026-0141", "supplierVatId": "PT507172230", "total": 196.8 } },
+  "approved-de.txt": { "decision": "approved", "fields": { "invoiceNumber": "RE-88213", "supplierVatId": "DE123456789", "total": 1463.7 } },
+  "bad-iban.txt": { "decision": "rejected", "fields": { "invoiceNumber": "INV-7781", "supplierVatId": "NL853746333B01", "total": 914.76 } },
+  "bad-total.txt": { "decision": "rejected", "fields": { "invoiceNumber": "F-2026-332", "supplierVatId": "FR40303265045", "total": 1552 } },
+  "long-terms.txt": { "decision": "needs_human_review", "fields": { "invoiceNumber": "ES-2026-0907", "supplierVatId": "ESB12345678", "total": 5808 } },
+  "non-eu-vat.txt": { "decision": "rejected", "fields": { "invoiceNumber": "US-55120", "supplierVatId": "US123456789", "total": 2400 } },
+  "missing-iban.txt": { "decision": "needs_human_review", "fields": {} }
+}

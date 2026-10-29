@@ -1,0 +1,16 @@
+INVOICE
+
+Invoice number: INV-7781
+Supplier: Canal Office BV
+VAT ID: NL853746333B01
+IBAN: NL91 ABNA 0417 1643 01
+Currency: EUR
+Issue date: 2026-09-03
+Due date: 2026-10-03
+
+Items (description | qty | unit price | amount):
+- Ergonomic chair | 4 | 189.00 | 756.00
+
+Subtotal: 756.00
+VAT amount: 158.76
+Total: 914.76

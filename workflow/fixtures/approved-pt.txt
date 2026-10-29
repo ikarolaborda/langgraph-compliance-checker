@@ -1,0 +1,17 @@
+INVOICE
+
+Invoice number: INV-2026-0141
+Supplier: Atlântico Papel Lda
+VAT ID: PT507172230
+IBAN: PT50 0002 0123 1234 5678 9015 4
+Currency: EUR
+Issue date: 2026-09-01
+Due date: 2026-10-01
+
+Items (description | qty | unit price | amount):
+- Recycled A4 paper, box | 20 | 4.50 | 90.00
+- Toner cartridge | 2 | 35.00 | 70.00
+
+Subtotal: 160.00
+VAT amount: 36.80
+Total: 196.80

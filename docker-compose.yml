@@ -1,0 +1,25 @@
+services:
+  rabbitmq:
+    image: rabbitmq:4-management
+    ports: ["5672:5672", "15672:15672"]
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+      interval: 5s
+      retries: 20
+
+  gateway:
+    build: ./gateway
+    environment:
+      RABBITMQ_HOST: rabbitmq
+    ports: ["${GATEWAY_PORT:-8080}:8080"]
+    depends_on:
+      rabbitmq: { condition: service_healthy }
+
+  workflow:
+    build: ./workflow
+    environment:
+      AMQP_URL: amqp://guest:guest@rabbitmq:5672
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-}
+    depends_on:
+      rabbitmq: { condition: service_healthy }

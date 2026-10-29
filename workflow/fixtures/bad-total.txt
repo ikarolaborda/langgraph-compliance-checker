@@ -1,0 +1,17 @@
+INVOICE
+
+Invoice number: F-2026-332
+Supplier: Lumière Services SARL
+VAT ID: FR40303265045
+IBAN: FR14 2004 1010 0505 0001 3M02 606
+Currency: EUR
+Issue date: 2026-08-20
+Due date: 2026-09-19
+
+Items (description | qty | unit price | amount):
+- Cleaning service, August | 1 | 1200.00 | 1200.00
+- Consumables | 1 | 85.00 | 85.00
+
+Subtotal: 1285.00
+VAT amount: 257.00
+Total: 1552.00
